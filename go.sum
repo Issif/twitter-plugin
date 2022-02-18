@@ -1,0 +1,4 @@
+github.com/falcosecurity/plugin-sdk-go v0.1.0 h1:uLcU/3ydPxXHpojqHg8hROaPL2fsE43VdoS//OL1HoI=
+github.com/falcosecurity/plugin-sdk-go v0.1.0/go.mod h1:9IdFIqRwJIFDfKnwTTM6S4mLITNfdjVl+5r4RY0TmRo=
+github.com/fallenstedt/twitter-stream v0.4.1 h1:GD0mQO4XLX2f89R2qxhjMlbuwPYPtup+/tCPEVXLIas=
+github.com/fallenstedt/twitter-stream v0.4.1/go.mod h1:rI9+ApaAA61jczjpin3vlREA9ONK4P4H4GVUNEXyoq0=

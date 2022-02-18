@@ -1,0 +1,14 @@
+- rule: New Cat image Tweet
+  desc: New Cat image Tweet
+  condition: twitter.text contains cat 
+  output: "New CAT image tweet from @%twitter.authorname: %twitter.rawtext"
+  priority: DEBUG
+  source: twitter
+  tags: [twitter]
+- rule: New Dog image Tweet
+  desc: New Dog image Tweet
+  condition: twitter.text contains dog 
+  output: "New DOG image tweet from @%twitter.authorname: %twitter.rawtext"
+  priority: DEBUG
+  source: twitter
+  tags: [twitter]
