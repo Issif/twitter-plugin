@@ -29,4 +29,4 @@ clean:
 	@rm -f *.so *.h
 
 $(OUTPUT): clean
-	@$(GODEBUGFLAGS) $(GO) build -buildmode=c-shared -o $(OUTPUT)
+	@$(GODEBUGFLAGS) $(GO) build -buildmode=c-shared -o $(OUTPUT) ./plugin
