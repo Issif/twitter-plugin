@@ -1,2 +1,4 @@
 libtwitter.so
 .fuse*
+falco.yaml
+.vscode

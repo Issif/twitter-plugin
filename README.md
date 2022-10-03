@@ -77,7 +77,7 @@ Only `init_config` accepts settings:
     enabled: true
   ```
 
-* `rules.yaml`
+* `rules/twitter_rules.yaml`
 
 The `source` for rules must be `twitter`.
 
@@ -102,12 +102,12 @@ See example:
 # Usage
 
 ```shell
-falco -c falco.yaml -r twitter_rules.yaml
+falco -c falco.yaml -r rules/twitter_rules.yaml
 ```
 
 ## Requirements
 
-* `Falco` >= 0.31
+* `Falco` >= 0.32
 
 ## Results
 

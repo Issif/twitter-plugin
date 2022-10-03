@@ -15,7 +15,7 @@ SHELL=/bin/bash -o pipefail
 GO ?= go
 
 NAME := twitter
-OUTPUT := /usr/share/falco/plugins/lib$(NAME).so
+OUTPUT := lib$(NAME).so
 
 ifeq ($(DEBUG), 1)
     GODEBUGFLAGS= GODEBUG=cgocheck=2
@@ -28,5 +28,5 @@ all: $(OUTPUT)
 clean:
 	@rm -f *.so *.h
 
-$(OUTPUT): *.go clean
+$(OUTPUT): clean
 	@$(GODEBUGFLAGS) $(GO) build -buildmode=c-shared -o $(OUTPUT)

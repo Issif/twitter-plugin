@@ -1,10 +1,11 @@
 plugins:
   - name: twitter
-    library_path: /usr/share/falco/plugins/libtwitter.so
+    library_path: /etc/falco/plugins/twitter/libtwitter.so
     init_config:
       rules:
-        - cat has:images
-        - dog has:images
+        - "#cat has:images"
+        - "#dog has:images"
+        - "#sectorca has:images"
       flushinterval: 1000
 
 load_plugins: [twitter]
